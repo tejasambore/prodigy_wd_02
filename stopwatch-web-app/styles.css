@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: #f0f0f0;
+}
+
+.stopwatch-container {
+  background: #f1d1d1;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: 450px;
+  height: 260px;
+}
+
+h1 {
+  font-size: 30px;
+  color: #580505;
+  margin-bottom: 10px;
+}
+
+.timer {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  border: 2px solid #973c0f;
+  width: 170px;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.controls button {
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#start {
+  background: #27782a;
+  color: #ffffff;
+}
+
+#pause {
+  background: #e08f0c;
+  color: #000;
+}
+
+#reset {
+  background: #d01b1b;
+  color: #ffffff;
+}
+
+#lap {
+  background: #0573e2;
+  color: #000;
+}
+
+.laps {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.laps h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#lapTimes {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#lapTimes li {
+  background: #f7f7f7;
+  border: 1px solid #e0e0e0;
+  padding: 5px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+}
